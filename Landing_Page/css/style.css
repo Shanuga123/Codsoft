@@ -872,10 +872,10 @@ body {
       display: none;
     }
   
-    /* .navbar:target .nav-logo-text:target .navlinks {
+     .navbar:target .nav-logo-text:target .navlinks {
       display: block;
       overflow: hidden;
-    } */
+    } 
   
     #toogle:checked + .navlinks {
       display: flex;
@@ -967,30 +967,7 @@ body {
       width: 93vw;
     }
   }
-  /* ___________________________________________ pricing ___________________________________________  */
-  /* ipad */
-  @media only screen and (max-width: 800px) {
-    .pricing {
-      width: 90%;
-      row-gap: 3rem;
-    }
-    .pt {
-      min-height: 25vh;
-      width: 30vw;
-    }
-  }
-  /* iphonex */
-  @media only screen and (max-width: 500px) {
-    .pricing-table {
-      flex-direction: column;
-      row-gap: 1.5rem;
-    }
-    .pt {
-      width: 75vw;
-      border: none;
-      border-bottom: 2px solid var(--dark-shade-gray);
-    }
-  }
+
   /* ___________________________________________ Video doctors ___________________________________________  */
   @media only screen and (max-width: 1440px) {
     .video-doctors {
@@ -1001,11 +978,11 @@ body {
   }
   
   @media only screen and (max-width: 800px) {
-    /* .video-doctors {
+     .video-doctors {
       flex-direction: column;
       align-items: center;
       row-gap: 3rem;
-    } */
+    } 
     .vps {
       row-gap: 3rem;
     }
